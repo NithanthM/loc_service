@@ -1,0 +1,13 @@
+### Update Location (PUT Request)
+
+
+PUT http://localhost:8000/location/update
+Content-Type: application/json
+
+{
+  "location_id": 1,
+  "new_name": "Nithanth",
+  "new_address": "123 Updated Address, City, Country"
+}
+### Get Location by ID
+GET http://localhost:8000/location/1
